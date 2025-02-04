@@ -61,7 +61,7 @@
 #     src: backend.service
 #     dest: /etc/systemd/system/backend.service
 
-# if dynamic vales are present then we need to template module
+# if dynamic vales are present in the file then we need to template module
 - name: Copy backend service file
   ansible.builtin.template:
     src: backend.service.j2
