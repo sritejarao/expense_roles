@@ -1,0 +1,5 @@
+- name: Configuring mysql
+  hosts: mysql
+  become: yes
+  roles: # will check in roles folder
+  - mysql
