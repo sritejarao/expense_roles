@@ -1,0 +1,4 @@
+mysql_user: root
+mysql_password: ExpenseApp@1
+mysql_host: mysql.learnnewthings.site
+#this is the vars
